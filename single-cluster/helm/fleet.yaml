@@ -32,6 +32,6 @@ targetCustomizations:
       replicas: 2
   clusterSelector:
     matchLabels:
-      veritasautomata.com/cloud-local: local
+      env: local
   
   
